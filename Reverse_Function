@@ -1,0 +1,7 @@
+def Reverse(newname):
+    for l in range(len(newname)):
+        k = len(newname)-1
+        print(newname[k-l], end='')
+
+name = str(input("Enter a word: "))
+Reverse(newname=name)
